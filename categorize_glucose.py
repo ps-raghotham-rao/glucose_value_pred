@@ -1,3 +1,9 @@
+'''
+In categorize function.
+Note: Extreme cases range are taken purposefully less. More healthy cases range are increased to reduce outliers.
+As most of the time patient has diabetes or not matters more. 
+And most cases range between 70 - 140 (normal and slight variations from the normal range which is fine)
+'''
 def categorize(value):
     if 35 <= value <= 69:
         return "A"

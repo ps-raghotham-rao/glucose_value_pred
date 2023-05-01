@@ -10,7 +10,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
 
 # read the data
-df = pd.read_csv(r"C:\Users\raghotham\Downloads\cleaned_data - cleaned_data.csv (4).csv")
+df = pd.read_csv(r"categorized_dataset.csv")
 
 # convert the glucose column to numerical values
 glucose_map = {
